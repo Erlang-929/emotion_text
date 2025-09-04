@@ -1,5 +1,6 @@
 import streamlit as st
 import tensorflow as tf
+from tensorflow import keras
 from transformers import TFBertModel, BertTokenizer, AutoTokenizer
 import pandas as pd
 import plotly.express as px
@@ -204,4 +205,5 @@ with tab2:
 
                 st.success("**Emotion Counts**")
                 st.table(label_counts)
+
 
