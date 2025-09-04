@@ -1,4 +1,4 @@
-﻿emoji==
+﻿emoji==2.14.1
 h5py==
 huggingface-hub==
 keras==
@@ -12,5 +12,6 @@ tensorflow==
 tensorflow-io-gcs-filesystem==
 tokenizers==
 transformers==
+
 
 
