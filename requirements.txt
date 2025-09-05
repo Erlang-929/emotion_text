@@ -1,12 +1,13 @@
-emoji==
-huggingface_hub==
-numpy==
-pandas==
-plotly==
-streamlit==
-tensorflow==
-transformers==
-tf-keras==
+emoji
+huggingface_hub
+numpy
+pandas
+plotly
+streamlit
+tensorflow
+transformers
+tf-keras
+
 
 
 
