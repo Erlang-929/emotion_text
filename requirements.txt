@@ -1,12 +1,13 @@
-emoji==2.14.1
-huggingface_hub==0.34.4
-numpy==2.3.2
-pandas==2.3.2
-plotly==6.3.0
-streamlit==1.49.1
-tensorflow==2.20.0
-transformers==4.44.2
-tf-keras==2.15.0
+emoji==
+huggingface_hub==
+numpy==
+pandas==
+plotly==
+streamlit==
+tensorflow==
+transformers==
+tf-keras==
+
 
 
 
