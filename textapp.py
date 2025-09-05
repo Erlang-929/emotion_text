@@ -6,7 +6,6 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 from PIL import Image
-import matplotlib.pyplot as plt
 from huggingface_hub import hf_hub_download
 import re
 import emoji
@@ -205,5 +204,6 @@ with tab2:
 
                 st.success("**Emotion Counts**")
                 st.table(label_counts)
+
 
 
