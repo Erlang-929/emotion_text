@@ -1,3 +1,6 @@
+import os
+os.environ["STREAMLIT_SERVER_FILE_WATCHER_TYPE"] = "none"
+
 import streamlit as st
 import tensorflow as tf
 from tensorflow import keras
@@ -9,10 +12,6 @@ from huggingface_hub import hf_hub_download
 import re
 import emoji
 import time
-
-import os
-os.environ["STREAMLIT_SERVER_FILE_WATCHER_TYPE"] = "none"
-
 
 with st.sidebar:
     st.title("About this App 🤔")
@@ -207,6 +206,7 @@ with tab2:
 
                 st.success("**Emotion Counts**")
                 st.table(label_counts)
+
 
 
 
