@@ -5,7 +5,6 @@ from transformers import TFBertModel, BertTokenizer, AutoTokenizer
 import pandas as pd
 import plotly.express as px
 import numpy as np
-from PIL import Image
 from huggingface_hub import hf_hub_download
 import re
 import emoji
@@ -204,6 +203,7 @@ with tab2:
 
                 st.success("**Emotion Counts**")
                 st.table(label_counts)
+
 
 
 
