@@ -1,3 +1,6 @@
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
 import streamlit as st
 import tensorflow as tf
 from tensorflow import keras
@@ -203,6 +206,7 @@ with tab2:
 
                 st.success("**Emotion Counts**")
                 st.table(label_counts)
+
 
 
 
