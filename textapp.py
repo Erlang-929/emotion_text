@@ -10,6 +10,10 @@ import re
 import emoji
 import time
 
+import os
+os.environ["STREAMLIT_SERVER_FILE_WATCHER_TYPE"] = "none"
+
+
 with st.sidebar:
     st.title("About this App 🤔")
     st.write("This app can classify emotions from Indonesian text into five categories: **SADNESS**, **ANGER**, **SUPPORT**, **HOPE**, and **DISAPPOINTMENT**.")
@@ -203,6 +207,7 @@ with tab2:
 
                 st.success("**Emotion Counts**")
                 st.table(label_counts)
+
 
 
 
